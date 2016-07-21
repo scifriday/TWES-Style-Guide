@@ -37,6 +37,14 @@ body {
 	font-family: 'Merriweather', Georgia, serif;
 }
 
+h1, h2, h3 {
+	font-family: 'FlingaLingBold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+p {
+	max-width: 54em;
+}
+
 .navbar-brand {
 	font-family: 'FlingaLingBold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 1.75em;
