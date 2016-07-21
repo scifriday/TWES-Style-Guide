@@ -35,6 +35,7 @@
 
 body {
 	font-family: 'Merriweather', Georgia, serif;
+	color: #666;
 }
 
 h1, h2, h3 {
@@ -50,8 +51,79 @@ p {
 	font-size: 1.75em;
 }
 
-@media screen and (max-width: 920px) {
+.nav-tabs {
+	border: none;
+}
+
+.nav-tabs>li.active>a, 
+.nav-tabs>li.active>a:focus, 
+.nav-tabs>li.active>a:hover {
+	border: none;
+}
+
+.nav-tabs>li>a {
+	border-radius: none !important;
+}
+
+.main {
+	margin-top: 5em;
+}
+
+.main__content {
+	padding-right: 45px;
+}
+
+.subnav {
+	margin-top: 1em;
+}
+
+.intro {
+	padding-bottom: 1.5em;
+	margin-bottom: 2.5em;
+	border-bottom: 1px solid #ddd;
+}
+
+.logo__example {
+	margin: 1em 0;
+}
+
+/* COLOR SWATCHES */
+
+.swatches {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.swatches li::before {
+	content: '';
+	display: block;
+	width: 100%;
+	padding: 5em;
+	margin: 1em 0 1.5em 0;
+}
+
+.swatch__blue::before {
+	background: #009BA6;
+}
+.swatch__green::before {
+	background: #7FC249;
+}
+.swatch__yellow::before {
+	background: #FFDF57;
+}
+.swatch__red::before {
+	background: #EF4E5D;
+}
+.swatch__babyblue::before {
+	background: #7FCDD3;
+}
+.swatch__gray::before {
+	background: #B1B3B5;
+}
+
+
+@media screen and (max-width: 960px) {
 	.navbar-right {
-		display: none;
+		display: none !important;
 	}
 }
