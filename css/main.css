@@ -1,0 +1,49 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3254131, 2016-07-21T09:33:58-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: FlingaLingBold by TypeArt Foundry
+ * URL: http://www.myfonts.com/fonts/typeart/fling-a-ling/bold/
+ * Copyright: v.1.2, Copyright (c) 1997&#x2010;2002 TypeArt(R) Foundry Inc. All Rights Reserved. This TypeArt(R) font was designed by Lloyd Springer. &#x0022;TypeArt&#x0022; is a registered trademark of the TypeArt Foundry Inc. &#x0022;Fling&#x2010;a&#x2010;Ling&#x0022
+ * Licensed pageviews: 10,000
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=3254131
+ * 
+ * © 2016 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/31a773");
+
+  
+@font-face {
+	font-family: 'FlingaLingBold';
+	src: url('fonts/31A773_0_0.eot');
+	src: url('fonts/31A773_0_0.eot?#iefix') format('embedded-opentype'),
+	url('fonts/31A773_0_0.woff2') format('woff2'),
+	url('fonts/31A773_0_0.woff') format('woff'),
+	url('fonts/31A773_0_0.ttf') format('truetype');
+}
+
+body {
+	font-family: 'Merriweather', Georgia, serif;
+}
+
+.navbar-brand {
+	font-family: 'FlingaLingBold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 1.75em;
+}
+
+@media screen and (max-width: 920px) {
+	.navbar-right {
+		display: none;
+	}
+}
