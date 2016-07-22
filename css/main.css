@@ -46,6 +46,16 @@ p {
 	max-width: 54em;
 }
 
+a {
+	color: #009BA6;
+}
+
+a:hover,
+a:focus,
+a:active {
+	color: #00768F;
+}
+
 .navbar-brand {
 	font-family: 'FlingaLingBold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 1.75em;
@@ -61,8 +71,12 @@ p {
 	border: none;
 }
 
+.nav-tabs>li.active>a:active {
+	background: none;
+}
+
 .nav-tabs>li>a {
-	border-radius: none !important;
+	border-radius: none;
 }
 
 .main {
@@ -70,7 +84,7 @@ p {
 }
 
 .main__content {
-	padding-right: 45px;
+	padding: 0 45px 0 30px;
 }
 
 .subnav {
@@ -119,6 +133,12 @@ p {
 }
 .swatch__gray::before {
 	background: #B1B3B5;
+}
+
+
+.logos img {
+	width: 100%;
+	max-width: 640px;
 }
 
 
