@@ -57,9 +57,10 @@
       <div class="row main">
         <!-- Submenu -->
         <nav class="col-sm-3">
-          <ul class="nav nav-stacked subnav" role="tablist">
+          <ul class="nav nav-stacked subnav" data-spy="affix" data-offset-top="0" data-offset-bottom="0" role="tablist">
             <li role="presentation" class="active"><a href="#logo__main" aria-controls="logo__main" role="tab" data-toggle="tab">Main</a></li>
             <li role="presentation"><a href="#logo__secondary" aria-controls="logo__secondary" role="tab" data-toggle="tab">Secondary</a></li>
+            <li role="presentation"><a href="#logo__type" aria-controls="logo__secondary" role="tab" data-toggle="tab">Logotype</a></li>
             <li role="presentation"><a href="#logo__mark" aria-controls="logo__mark" role="tab" data-toggle="tab">Brand Mark</a></li>
             <li role="presentation"><a href="#logo__alt" aria-controls="logo__alt" role="tab" data-toggle="tab">Initials</a></li>
             <li role="presentation"><a href="#logo__bw" aria-controls="logo__bw" role="tab" data-toggle="tab">Black &amp; White</a></li>
@@ -92,10 +93,17 @@
             </section>
 
             <section role="tabpanel" class="tab-pane logos" id="logo__secondary">
-              <h2>Secondary Logo</h2>
+              <h2>Secondary Logos</h2>
               <p>In applications already featuring the brand mark, the secondary usage would be appropriate. These should not be used on black as is; use the knockout style instead.</p>
               <img src="img/stacked_logo_boomerang.jpg" alt="Logo with a boomarang shape background" class="logo__example">
               <img src="img/logo_trapezoid.jpg" alt="Logo with a trapezoid shape background" class="logo__example">
+            </section>
+
+            <section role="tabpanel" class="tab-pane logos" id="logo__type">
+              <h2>Type Only</h2>
+              <p>This stipped down version is available when the brand mark appears nearby already, but the boomerang/trapezoid background cannot work within a design.</p>
+              <img src="img/horiz_logo.jpg" alt="Horizontal logo without mark or background shape" class="logo__example">
+              <img src="img/stacked_logo.jpg" alt="Stacked logo without mark or background shape" class="logo__example">
             </section>
 
             <section role="tabpanel" class="tab-pane logos" id="logo__mark">
@@ -108,7 +116,81 @@
             <section role="tabpanel" class="tab-pane logos" id="logo__alt">
               <h2>Initials</h2>
               <p>The TWES initial treatment corresponds to community related promotions, like "WE Funny", where Will's initials are used as a title. This is to be used very rarely, and only in the communtiy context.</p>
-              <img src="img/TWES_initials.jpg" alt="Brand mark" class="logo__example">
+              <img src="img/TWES_initials.jpg" alt="Initials" class="logo__example">
+            </section>
+
+            <section role="tabpanel" class="tab-pane logos" id="logo__bw">
+              <h2>Black &amp; White / Grayscale Logos</h2>
+              <p>These can be used in single color applications, such as newsprint.</p>
+              <div class="row">
+                <div class="col-sm-5">
+                  <img src="img/stacked_logo_brandmark_BW.jpg" alt="Grayscale version The Will Edwards Show main logo" class="logo__example">
+                </div>
+                <div class="col-sm-6">
+                  <img src="img/logo_brandmark_BW.jpg" alt="Grayscale version The Will Edwards Show horizontal logo" class="logo__example">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-5">
+                  <img src="img/stacked_logo_boomerang_BW.jpg" alt="Grayscale version Logo with a boomarang shape background" class="logo__example">
+                </div>
+                <div class="col-sm-6">
+                  <img src="img/logo_trapezoid_BW.jpg" alt="Grayscale version Logo with a trapezoid shape background" class="logo__example">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-5">
+                  <img src="img/stacked_logo_BW.jpg" alt="Grayscale version of stacked logo" class="logo__example">
+                </div>
+                <div class="col-sm-6">
+                  <img src="img/horiz_logo_BW.jpg" alt="Grayscale version of horizontal logo" class="logo__example">
+                </div>
+              </div>
+              <img src="img/TWES_initials_BW.jpg" alt="Initials" class="logo__example">
+            </section>
+
+            <section role="tabpanel" class="tab-pane logos" id="knockout">
+              <h2>Knockout</h2>
+              <p>The knockout style works best on bright, solid background colors.</p>
+              <img src="img/knockout_main.jpg" alt="main logo on a blue background" class="logo__example">
+              <img src="img/knockout_boomerang.jpg" alt="main logo on a green background" class="logo__example">
+              <img src="img/knockout_stacked.jpg" alt="main logo on a red background" class="logo__example">
+            </section>
+
+            <section role="tabpanel" class="tab-pane logos" id="min__space">
+              <h2>Minimum White Space</h2>
+              <p>The border line shows the minimum amout of white space that should surround the logo. It is approximately the width of the "W".</p>
+              <div class="row">
+                <div class="col-sm-5">
+                  <img src="img/stacked_logo_brandmark.jpg" alt="The Will Edwards Show main logo" class="logo__example border">
+                </div>
+                <div class="col-sm-6">
+                  <img src="img/logo_brandmark.jpg" alt="The Will Edwards Show horizontal logo" class="logo__example border">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-5">
+                  <img src="img/stacked_logo_boomerang.jpg" alt="Logo with a boomarang shape background" class="logo__example border">
+                </div>
+                <div class="col-sm-6">
+                  <img src="img/logo_trapezoid.jpg" alt="Logo with a trapezoid shape background" class="logo__example border">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-4">
+                  <img src="img/stacked_logo.jpg" alt="Stacked logo without mark or background shape" class="logo__example border">
+                </div>
+                <div class="col-sm-6 col-md-offset-1">
+                  <img src="img/horiz_logo.jpg" alt="Stacked logo without mark or background shape" class="logo__example border">
+                </div>
+              </div>
+            </section>
+
+            <section role="tabpanel" class="tab-pane logos" id="min__size">
+              <h2>Minimum Size</h2>
+              <p></p>
+                <img src="img/min-size.jpg" alt="minimum sizes for each logo" class="logo__example">
+              </div>
             </section>
 
           </div>
