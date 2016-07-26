@@ -60,6 +60,15 @@ hr {
 	margin: 1em 0 3em 0;
 }
 
+img {
+	max-width: 100%;
+}
+
+figcaption {
+	text-align: center;
+	margin: 1em 0 4em 0;
+}
+
 .navbar-brand {
 	font-family: 'FlingaLingBold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 1.75em;
@@ -104,6 +113,14 @@ hr {
 
 .logo__example {
 	margin: 1em 0;
+}
+
+.section {
+	margin-bottom: 2em;
+}
+
+.section img {
+	margin-top: 6px;
 }
 
 .border {
@@ -170,6 +187,20 @@ hr {
 	background: #EF4E5D;
 	border: none;
 	color: #fff;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+	background: #D53B4A;
+}
+
+.btn[disabled] {
+	background: #939597;
+}
+
+.btn[disabled]:hover,
+.btn[disabled]:active {
+	background: #b1b3b5; 
 }
 
 
